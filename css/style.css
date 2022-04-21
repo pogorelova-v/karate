@@ -1,0 +1,264 @@
+:root {
+    --color1: rgba(255, 0, 0);
+    --color2: rgb(255, 230, 0);
+}
+
+body{
+    color: black;
+    overflow-x: hidden !important;
+}
+footer{
+    padding-top: 40px;
+}
+section {
+    padding:50px 0;
+}
+
+header {
+    height: 600px;
+    color: var(--color2);
+    background-color: black;
+    background-image: url(../img/deti2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+.itd-one-row{
+    height: 600px;
+}
+h1{
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 1px 0 1px #000, 
+    0 1px 1px #000, 
+    -1px 0 1px #000, 
+    0 -1px 1px #000;
+}
+
+footer {
+    background: var(--color1);
+    background: -moz-linear-gradient(left, var(--color1) 0%, var(--color2) 100%);
+    background: -webkit-linear-gradient(left, var(--color1) 0%, var(--color2) 100%);
+    background: linear-gradient(to right, var(--color1) 0%, var(--color2) 100%);
+}
+
+.itd-play {
+    background-color: var(--color1);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 30px auto;
+    transition: all 0.2s ease;
+}
+
+.itd-play:hover {
+    transform: scale(1.5);
+}
+
+.itd-triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 20px;
+    border-color: transparent transparent transparent white;
+    margin-right: -3px;
+}
+
+.btn-itd {
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 8px 30px;
+    background-color: var(--color2);
+    margin-bottom: 20px;
+    box-shadow: 0 0  15px  var(--color1);
+}
+
+.btn-itd:hover {
+    background-color: var(--color1);
+    box-shadow: 0 0  15px  var(--color2);
+}
+.modal-header{
+    background-color: var(--color1);
+}
+.modal-body{
+    background-color: var(--color2);
+}
+h5.modal-title{
+    margin: 0 auto;
+}
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.color1{
+    color: var(--color1);
+}
+.color2{
+    color: var(--color2);
+}
+.bg1{
+    color: var(--color1);
+}
+.bg2{
+    color: var(--color2);
+}
+
+/*-------------- О курсе--------------------*/
+
+.about, .shedule, .trener{
+    background-color: rgb(228, 228, 228);
+}
+
+
+.itd-circle{
+    width: 64px;
+    height: 64px;
+    margin: 10px auto;
+}
+.itd-circle-item-1{
+    background: url(../img/sprite2.png) -67px 0;
+}
+.itd-circle-item-2{
+    background: url(../img/sprite2.png) -639px 0;
+}
+.itd-circle-item-3{
+    background: url(../img/sprite2.png) -578px 0;
+}
+.itd-circle-item-4{
+    background: url(../img/sprite2.png) -515px 0;
+}
+.itd-circle-item-5{
+    background: url(../img/sprite2.png) 0 0;
+}
+.itd-circle-item-6{
+    background: url(../img/sprite2.png) -704px 0;
+}
+.line{
+    width: 100px;
+    height: 3px;
+    background-color: rgb(134, 0, 0) ;
+    margin: 0 auto;
+}
+
+/*------------------------------Кому------------------------*/
+
+.table{
+    max-width: 700px;
+    margin: 0 auto 10px;
+}
+
+tr{
+    background-color: rgba(211, 211, 211, 0.5);
+    font-weight: 600;
+    border-bottom: #000 solid 1px;
+}
+.forwhom{
+    background-image: url(../img/mnogo-karata.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*------------Аккордеон------------------------------*/
+
+/*--------------------------------Варианты обучения-----------------------------*/
+.itd-pergament{
+    background-image: url(../img/pergam.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 10%;
+}
+.itd-cklatva{
+    padding: 20px ;
+}
+
+/*----------------------тренера----------------------------------*/
+
+.itd-card-trener{
+    border-radius: 50px;
+    border: #000 solid 2px;
+    padding: 15px;
+}
+.itd-img-trener{
+    border-radius: 40px;
+}
+/*------------------------footer------------------------------*/
+.itd-btn-footer{
+    border: solid black 2px;
+    margin: 15px;
+    width: 64px;
+    height: 64px;
+    font-size: 0.1px;
+}
+.itd-btn-footer:hover{
+   background-color: var(--color2);
+}
+.itd-girl{
+    background: url(../img/sprite.png) -64px 0;    
+}
+.itd-man{
+    background: url(../img/sprite.png) 0 0; 
+}
+.itd-vk{
+    background: url(../img/sprite.png) -130px 0; 
+}
+.itd-call{
+    background: url(../img/sprite.png) -194px 0; 
+}
+.itd-logo-footer{
+    background-image: url(../img/logo-footer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.itd-adress{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+.itd-adress:hover{
+    color: #000;
+    transform: scale(1.2);
+}
+.itd-adres-card{
+    margin-top: 10px;
+    width: 100%;
+    height: 300px;
+}
+.itd-adres-card-row{
+   margin: 5px;
+}
+.itd-sait{
+    color: rgb(129, 129, 129);
+    background-color: rgb(27, 27, 27);
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+.itd-sait a{
+      font-size: 10px;
+
+    margin: 0;
+    color: rgb(129, 129, 129);
+}
+
+
+
+
+
