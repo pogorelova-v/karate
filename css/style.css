@@ -37,9 +37,9 @@ h1{
 
 footer {
     background: var(--color1);
-    background: -moz-linear-gradient(left, var(--color1) 0%, var(--color2) 100%);
-    background: -webkit-linear-gradient(left, var(--color1) 0%, var(--color2) 100%);
-    background: linear-gradient(to right, var(--color1) 0%, var(--color2) 100%);
+    background: -moz-linear-gradient(left, white 0%, black 100%);
+    background: -webkit-linear-gradient(left, white 0%, black 100%);
+    background: linear-gradient(to right, white 0%, black 100%);
 }
 
 .itd-play {
