@@ -16,7 +16,7 @@ section {
 
 header {
     height: 600px;
-    color: var(--color2);
+    color: white;
     background-color: black;
     background-image: url(../img/deti2.jpg);
     background-repeat: no-repeat;
@@ -73,8 +73,9 @@ footer {
     max-width: 200px;
     margin: 0 auto;
     padding: 8px 30px;
-    background-color: var(--color2);
+    background-color: black;
     margin-bottom: 20px;
+    color:white;
     box-shadow: 0 0  15px  var(--color1);
 }
 
